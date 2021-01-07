@@ -1,0 +1,33 @@
+{
+	"name": "trigger1",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "pipeline1",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Day",
+				"interval": 1,
+				"startTime": "2020-12-29T14:16:00",
+				"endTime": "2020-12-30T17:30:00",
+				"timeZone": "Kaliningrad Standard Time",
+				"schedule": {
+					"minutes": [
+						35
+					],
+					"hours": [
+						17
+					]
+				}
+			}
+		}
+	}
+}
